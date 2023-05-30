@@ -38,6 +38,9 @@ OF SUCH DAMAGE.
 #ifndef MAIN_H
 #define MAIN_H
 /* led spark function */
-
+#include "gd32f10x.h"
+#include "gd32f10x_libopt.h"
+#include "systick.h"
+#include <stdio.h>
 
 #endif /* MAIN_H */

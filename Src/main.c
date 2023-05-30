@@ -35,9 +35,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 OF SUCH DAMAGE.
 */
 
-#include "gd32f10x.h"
-#include "systick.h"
-#include <stdio.h>
+
 #include "main.h"
 
 /*!
@@ -60,10 +58,9 @@ int main(void)
     /* configure systick */
     systick_config();
     /* initilize the LEDs, USART and key */
-    
+
 
     while(1){
-      
     }
 }
 
