@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "gd32f10x.h": "c",
+        "gd32f10x_rtc.h": "c",
+        "gd32f10x_misc.h": "c"
+    }
+}

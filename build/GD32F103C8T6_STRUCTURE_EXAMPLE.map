@@ -1,0 +1,635 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (atexit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (exit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (__libc_fini_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (__libc_init_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (memset)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o) (__register_exitproc)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o) (__call_exitprocs)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .rodata        0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .text          0x0000000000000000       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.exidx     0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .debug_line    0x0000000000000000       0x87 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .debug_str     0x0000000000000000       0x94 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+ .text          0x0000000000000000        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_info    0x0000000000000000      0x100 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000000000       0xb7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000000       0xc0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_str     0x0000000000000000      0x1e1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-atexit.o)
+ .text          0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_info    0x0000000000000000      0x81a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000000000      0x1ba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_loc     0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_line    0x0000000000000000      0x16d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_str     0x0000000000000000      0x520 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_info    0x0000000000000000      0x102 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_abbrev  0x0000000000000000       0xcf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_loc     0x0000000000000000       0x68 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_line    0x0000000000000000       0xed /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_str     0x0000000000000000      0x1d9 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000       0x64 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_info    0x0000000000000000      0x863 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000000      0x151 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_line    0x0000000000000000       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .debug_str     0x0000000000000000      0x556 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_info    0x0000000000000000      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_abbrev  0x0000000000000000       0xcc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_loc     0x0000000000000000       0xba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_line    0x0000000000000000      0x13f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_str     0x0000000000000000      0x203 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_info    0x0000000000000000      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000000       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_loc     0x0000000000000000      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_line    0x0000000000000000      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_str     0x0000000000000000      0x1b8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000       0xac /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000       0x8c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000000000      0x269 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000000000      0x1bd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000000000      0x1c4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000000000      0x1fc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_str     0x0000000000000000      0x28f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000000       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__atexit.o)
+ .text          0x0000000000000000       0xc0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000000000      0x249 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000000000      0x179 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000000      0x17d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x0000000000000000       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000000000      0x200 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_str     0x0000000000000000      0x253 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000000       0x40 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-__call_atexit.o)
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.delay_1ms
+                0x0000000000000000       0x14 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.delay_decrement
+                0x0000000000000000       0x14 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .bss.delay     0x0000000000000000        0x4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text          0x0000000000000000       0x14 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+ .text          0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .debug_info    0x0000000000000000       0xa3 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .debug_abbrev  0x0000000000000000       0x6a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .debug_loc     0x0000000000000000       0x15 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .debug_line    0x0000000000000000       0x75 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .debug_str     0x0000000000000000      0x179 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .rodata        0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000010000 xr
+RAM              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libstdc++_nano.a
+END GROUP
+LOAD CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+LOAD CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libnosys.a
+END GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000020004fff                _estack = 0x20004fff
+                0x0000000000000200                _Min_Heap_Size = 0x200
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008000000      0x10c
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+                0x0000000008000000                g_pfnVectors
+                0x000000000800010c                . = ALIGN (0x4)
+
+.text           0x000000000800010c      0x2a4
+                0x000000000800010c                . = ALIGN (0x4)
+ *(.text)
+ .text          0x000000000800010c       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *(.text*)
+ .text.system_clock_108m_hxtal
+                0x0000000008000194       0x9c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.system_clock_config
+                0x0000000008000230        0x8 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.SystemInit
+                0x0000000008000238       0xbc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000238                SystemInit
+ .text.NMI_Handler
+                0x00000000080002f4        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x00000000080002f4                NMI_Handler
+ .text.HardFault_Handler
+                0x00000000080002f6        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x00000000080002f6                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000000080002f8        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x00000000080002f8                MemManage_Handler
+ .text.BusFault_Handler
+                0x00000000080002fa        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x00000000080002fa                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000000080002fc        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x00000000080002fc                UsageFault_Handler
+ .text.SVC_Handler
+                0x00000000080002fe        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x00000000080002fe                SVC_Handler
+ .text.DebugMon_Handler
+                0x0000000008000300        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000300                DebugMon_Handler
+ .text.PendSV_Handler
+                0x0000000008000302        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000302                PendSV_Handler
+ .text.SysTick_Handler
+                0x0000000008000304        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000304                SysTick_Handler
+ *fill*         0x0000000008000306        0x2 
+ .text.systick_config
+                0x0000000008000308       0x40 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000308                systick_config
+ .text.main     0x0000000008000348        0x8 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000348                main
+ .text.Reset_Handler
+                0x0000000008000350       0x44 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+                0x0000000008000350                Reset_Handler
+ .text.Default_Handler
+                0x0000000008000394        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+                0x0000000008000394                EXTI2_IRQHandler
+                0x0000000008000394                TIMER2_IRQHandler
+                0x0000000008000394                LVD_IRQHandler
+                0x0000000008000394                TIMER0_BRK_IRQHandler
+                0x0000000008000394                ADC0_1_IRQHandler
+                0x0000000008000394                TIMER0_UP_IRQHandler
+                0x0000000008000394                EXTI3_IRQHandler
+                0x0000000008000394                TIMER3_IRQHandler
+                0x0000000008000394                DMA0_Channel6_IRQHandler
+                0x0000000008000394                I2C0_EV_IRQHandler
+                0x0000000008000394                EXTI0_IRQHandler
+                0x0000000008000394                SPI1_IRQHandler
+                0x0000000008000394                DMA0_Channel0_IRQHandler
+                0x0000000008000394                TAMPER_IRQHandler
+                0x0000000008000394                DMA0_Channel3_IRQHandler
+                0x0000000008000394                I2C0_ER_IRQHandler
+                0x0000000008000394                RTC_IRQHandler
+                0x0000000008000394                DMA0_Channel2_IRQHandler
+                0x0000000008000394                USART0_IRQHandler
+                0x0000000008000394                TIMER1_IRQHandler
+                0x0000000008000394                TIMER0_TRG_CMT_IRQHandler
+                0x0000000008000394                I2C1_EV_IRQHandler
+                0x0000000008000394                EXTI10_15_IRQHandler
+                0x0000000008000394                Default_Handler
+                0x0000000008000394                WWDGT_IRQHandler
+                0x0000000008000394                EXMC_IRQHandler
+                0x0000000008000394                USBD_WKUP_IRQHandler
+                0x0000000008000394                EXTI4_IRQHandler
+                0x0000000008000394                USBD_HP_CAN0_TX_IRQHandler
+                0x0000000008000394                CAN0_RX1_IRQHandler
+                0x0000000008000394                DMA0_Channel5_IRQHandler
+                0x0000000008000394                EXTI5_9_IRQHandler
+                0x0000000008000394                RCU_IRQHandler
+                0x0000000008000394                DMA0_Channel1_IRQHandler
+                0x0000000008000394                TIMER0_Channel_IRQHandler
+                0x0000000008000394                EXTI1_IRQHandler
+                0x0000000008000394                SPI0_IRQHandler
+                0x0000000008000394                RTCAlarm_IRQHandler
+                0x0000000008000394                USART2_IRQHandler
+                0x0000000008000394                CAN0_EWMC_IRQHandler
+                0x0000000008000394                USBD_LP_CAN0_RX0_IRQHandler
+                0x0000000008000394                USART1_IRQHandler
+                0x0000000008000394                I2C1_ER_IRQHandler
+                0x0000000008000394                FMC_IRQHandler
+                0x0000000008000394                DMA0_Channel4_IRQHandler
+ *(.glue_7)
+ .glue_7        0x0000000008000396        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008000396        0x0 linker stubs
+ *(.eh_frame)
+ *fill*         0x0000000008000396        0x2 
+ .eh_frame      0x0000000008000398        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x0000000008000398        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008000398                _init
+ .init          0x000000000800039c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x00000000080003a4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080003a4                _fini
+ .fini          0x00000000080003a8        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b0                _etext = .
+
+.vfp11_veneer   0x00000000080003b0        0x0
+ .vfp11_veneer  0x00000000080003b0        0x0 linker stubs
+
+.v4_bx          0x00000000080003b0        0x0
+ .v4_bx         0x00000000080003b0        0x0 linker stubs
+
+.iplt           0x00000000080003b0        0x0
+ .iplt          0x00000000080003b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+
+.rel.dyn        0x00000000080003b0        0x0
+ .rel.iplt      0x00000000080003b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+
+.rodata         0x00000000080003b0        0x0
+                0x00000000080003b0                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+                0x00000000080003b0                . = ALIGN (0x4)
+
+.ARM.extab      0x00000000080003b0        0x0
+                0x00000000080003b0                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000080003b0                . = ALIGN (0x4)
+
+.ARM            0x00000000080003b0        0x0
+                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b0                __exidx_start = .
+ *(.ARM.exidx*)
+                0x00000000080003b0                __exidx_end = .
+                0x00000000080003b0                . = ALIGN (0x4)
+
+.preinit_array  0x00000000080003b0        0x0
+                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b0                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x00000000080003b0                PROVIDE (__preinit_array_end = .)
+                0x00000000080003b0                . = ALIGN (0x4)
+
+.init_array     0x00000000080003b0        0x4
+                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b0                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x00000000080003b0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x00000000080003b4                PROVIDE (__init_array_end = .)
+                0x00000000080003b4                . = ALIGN (0x4)
+
+.fini_array     0x00000000080003b4        0x4
+                0x00000000080003b4                . = ALIGN (0x4)
+                0x00000000080003b4                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00000000080003b4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x00000000080003b8                PROVIDE (__fini_array_end = .)
+                0x00000000080003b8                . = ALIGN (0x4)
+                0x00000000080003b8                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x4 load address 0x00000000080003b8
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x0000000020000000        0x4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000020000000                SystemCoreClock
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _edata = .
+
+.tm_clone_table
+                0x0000000020000004        0x0 load address 0x00000000080003bc
+ .tm_clone_table
+                0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .tm_clone_table
+                0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+
+.igot.plt       0x0000000020000004        0x0 load address 0x00000000080003bc
+ .igot.plt      0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000020000004                . = ALIGN (0x4)
+
+.bss            0x0000000020000004       0x1c load address 0x00000000080003bc
+                0x0000000020000004                _sbss = .
+                0x0000000020000004                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x0000000020000004       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *(.bss*)
+ *(COMMON)
+                0x0000000020000020                . = ALIGN (0x4)
+                0x0000000020000020                _ebss = .
+                0x0000000020000020                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x0000000020000020      0x600 load address 0x00000000080003bc
+                0x0000000020000020                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x0000000020000220                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000020      0x200 
+                0x0000000020000620                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000220      0x400 
+                0x0000000020000620                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1d /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+ .ARM.attributes
+                0x000000000000001d       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x000000000000004a       0x2d CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .ARM.attributes
+                0x0000000000000077       0x21 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+ .ARM.attributes
+                0x0000000000000098       0x2d /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000000000000c5       0x1d /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+OUTPUT(GD32F103C8T6_STRUCTURE_EXAMPLE.elf elf32-littlearm)
+LOAD linker stubs
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
+
+.debug_info     0x0000000000000000      0x833
+ .debug_info    0x0000000000000000      0x811 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_info    0x0000000000000811       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+
+.debug_abbrev   0x0000000000000000      0x2c9
+ .debug_abbrev  0x0000000000000000      0x2b7 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_abbrev  0x00000000000002b7       0x12 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+
+.debug_loc      0x0000000000000000       0xdc
+ .debug_loc     0x0000000000000000       0xdc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+
+.debug_aranges  0x0000000000000000       0xc0
+ .debug_aranges
+                0x0000000000000000       0x98 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_aranges
+                0x0000000000000098       0x28 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+
+.debug_ranges   0x0000000000000000       0xa8
+ .debug_ranges  0x0000000000000000       0x88 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_ranges  0x0000000000000088       0x20 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+
+.debug_macro    0x0000000000000000     0x876c
+ .debug_macro   0x0000000000000000      0x2c4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000002c4      0xa60 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000000d24       0x64 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000000d88       0x3a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000000dc2      0x34e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000001110       0x2d CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000113d      0xa8b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000001bc8      0x115 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000001cdd      0x37c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000002059       0xca CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000002123      0x1ac CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000022cf      0x853 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000002b22      0x33a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000002e5c      0x79e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000035fa       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000362e      0x28f CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000038bd       0xbe CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000397b      0x463 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000003dde      0x295 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004073       0xac CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000411f       0x70 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000418f       0xf4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004283      0x96f CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004bf2      0x30b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004efd      0x2c6 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000051c3      0x38b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000554e      0x605 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000005b53      0x54a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000609d      0x8f1 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000698e       0x18 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000069a6       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000069c8       0x46 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006a0e       0x5c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006a6a       0x3c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006aa6       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006ada       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006af0      0x10e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006bfe       0x86 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006c84       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006c9a       0x43 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006cdd       0x57 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006d34       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006d68       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006d78       0x52 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006dca       0x71 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006e3b       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006e51      0x12a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006f7b      0x356 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000072d1       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000072f3     0x1108 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000083fb       0x70 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000846b       0x1c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008487       0x35 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000084bc       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000084cc       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000084dc       0x6a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008546       0xb2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000085f8       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000860e      0x114 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008722       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008732       0x3a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+
+.debug_line     0x0000000000000000      0xb11
+ .debug_line    0x0000000000000000      0xa5b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_line    0x0000000000000a5b       0xb6 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+
+.debug_str      0x0000000000000000    0x29da1
+ .debug_str     0x0000000000000000    0x29d39 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                                      0x29f89 (size before relaxing)
+ .debug_str     0x0000000000029d39       0x68 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+                                         0x99 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x12c
+ .debug_frame   0x0000000000000000      0x12c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
