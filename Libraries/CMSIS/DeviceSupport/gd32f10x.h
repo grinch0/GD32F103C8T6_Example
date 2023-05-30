@@ -41,7 +41,7 @@ OF SUCH DAMAGE.
 #ifdef cplusplus
  extern "C" {
 #endif 
-#define GD32F10X_MD
+
 /* define GD32F10x */
 #if !defined (GD32F10X_MD) && !defined (GD32F10X_HD) && !defined (GD32F10X_XD) && !defined (GD32F10X_CL)
   /* #define GD32F10X_MD */     /*!< GD32F10X_MD: GD32 Medium density devices */

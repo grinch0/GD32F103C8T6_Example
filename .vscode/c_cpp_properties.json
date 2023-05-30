@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "ARM",
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "GD32F10X_MD"         
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Libraries/CMSIS/CoreSupport/",
+                "${workspaceFolder}/Libraries/CMSIS/DeviceSupport/",
+                "${workspaceFolder}/Libraries/GD32F10x_standard_peripheral/Include/",
+                "${workspaceFolder}/Libraries/GD32F10x_standard_peripheral/Source/",
+                "${workspaceFolder}/Src/"
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "${default}",
+            "mergeConfigurations": true,
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/Libraries/CMSIS/CoreSupport/",
+                    "${workspaceFolder}/Libraries/CMSIS/DeviceSupport/",
+                    "${workspaceFolder}/Libraries/GD32F10x_standard_peripheral/Include/",
+                    "${workspaceFolder}/Libraries/GD32F10x_standard_peripheral/Source/",
+                    "${workspaceFolder}/Src/"
+                ]
+            },
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

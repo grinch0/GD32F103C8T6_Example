@@ -37,7 +37,6 @@ OF SUCH DAMAGE.
 
 #ifndef MAIN_H
 #define MAIN_H
-#define GD32F10X_MD
 /* led spark function */
 
 

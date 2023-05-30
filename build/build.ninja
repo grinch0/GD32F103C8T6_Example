@@ -50,7 +50,7 @@ cmake_ninja_workdir = /home/kosten/Projects/GD32F103C8T6_Example/build/
 build cmake_object_order_depends_target_GD32F103C8T6_STRUCTURE_EXAMPLE: phony || CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir
 
 build CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj: C_COMPILER__GD32F103C8T6_STRUCTURE_EXAMPLE_Debug /home/kosten/Projects/GD32F103C8T6_Example/build/CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c || cmake_object_order_depends_target_GD32F103C8T6_STRUCTURE_EXAMPLE
-  DEFINES = -DGD32F1x0 -DUSE_STDPERIPH_DRIVER
+  DEFINES = -DGD32F10X_MD -DGD32F1x0 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -std=c99
   INCLUDES = -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/CMSIS/CoreSupport -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/CMSIS/DeviceSupport -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/GD32F10x_standard_peripheral/Include -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/GD32F10x_standard_peripheral/Source -I/home/kosten/Projects/GD32F103C8T6_Example/Src
@@ -58,7 +58,7 @@ build CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj: C_COM
   OBJECT_FILE_DIR = CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity
 
 build CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj: ASM_COMPILER__GD32F103C8T6_STRUCTURE_EXAMPLE_Debug /home/kosten/Projects/GD32F103C8T6_Example/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s || cmake_object_order_depends_target_GD32F103C8T6_STRUCTURE_EXAMPLE
-  DEFINES = -DGD32F1x0 -DUSE_STDPERIPH_DRIVER
+  DEFINES = -DGD32F10X_MD -DGD32F1x0 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj.d
   FLAGS = -g -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
   INCLUDES = -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/CMSIS/CoreSupport -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/CMSIS/DeviceSupport -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/GD32F10x_standard_peripheral/Include -I/home/kosten/Projects/GD32F103C8T6_Example/Libraries/GD32F10x_standard_peripheral/Source -I/home/kosten/Projects/GD32F103C8T6_Example/Src

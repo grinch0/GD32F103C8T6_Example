@@ -46,11 +46,13 @@ add_executable(${EXECUTABLE}
     ${PROJECT_DIR}/Src/gd32f10x_it.c
     ${PROJECT_DIR}/Src/systick.c
     ${PROJECT_DIR}/Src/gd32f10x_it.c
+    ${PROJECT_DIR}/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.c
     )
 
 target_compile_definitions(${EXECUTABLE} PRIVATE
     -D${MCU_FAMILY}
     -DUSE_STDPERIPH_DRIVER
+    -DGD32F10X_MD
      )
 
 target_include_directories(${EXECUTABLE} PRIVATE

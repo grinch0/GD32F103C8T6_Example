@@ -210,7 +210,6 @@ Discarded input sections
  .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .group         0x0000000000000000        0xc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
@@ -218,6 +217,18 @@ Discarded input sections
                 0x0000000000000000       0x14 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .text.delay_decrement
                 0x0000000000000000       0x14 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.nvic_priority_group_set
+                0x0000000000000000       0x14 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.nvic_irq_enable
+                0x0000000000000000       0x94 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.nvic_irq_disable
+                0x0000000000000000       0x18 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.system_lowpower_set
+                0x0000000000000000       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.system_lowpower_reset
+                0x0000000000000000       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.systick_clksource_set
+                0x0000000000000000       0x20 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .bss.delay     0x0000000000000000        0x4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .text          0x0000000000000000       0x14 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
  .data          0x0000000000000000        0x0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
@@ -292,176 +303,179 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c      0x2a4
+.text           0x000000000800010c      0x2a8
                 0x000000000800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x000000000800010c       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.text*)
- .text.system_clock_108m_hxtal
-                0x0000000008000194       0x9c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .text.system_clock_48m_irc8m
+                0x0000000008000194       0x88 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .text.system_clock_config
-                0x0000000008000230        0x8 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .text.SystemInit
-                0x0000000008000238       0xbc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x0000000008000238                SystemInit
+                0x000000000800021c        0x8 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .text.NMI_Handler
-                0x00000000080002f4        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x00000000080002f4                NMI_Handler
+                0x0000000008000224        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000224                NMI_Handler
  .text.HardFault_Handler
-                0x00000000080002f6        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x00000000080002f6                HardFault_Handler
+                0x0000000008000226        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000226                HardFault_Handler
  .text.MemManage_Handler
-                0x00000000080002f8        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x00000000080002f8                MemManage_Handler
+                0x0000000008000228        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000228                MemManage_Handler
  .text.BusFault_Handler
-                0x00000000080002fa        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x00000000080002fa                BusFault_Handler
+                0x000000000800022a        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x000000000800022a                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000000080002fc        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x00000000080002fc                UsageFault_Handler
+                0x000000000800022c        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x000000000800022c                UsageFault_Handler
  .text.SVC_Handler
-                0x00000000080002fe        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x00000000080002fe                SVC_Handler
+                0x000000000800022e        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x000000000800022e                SVC_Handler
  .text.DebugMon_Handler
-                0x0000000008000300        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x0000000008000300                DebugMon_Handler
+                0x0000000008000230        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000230                DebugMon_Handler
  .text.PendSV_Handler
-                0x0000000008000302        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x0000000008000302                PendSV_Handler
+                0x0000000008000232        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000232                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008000304        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x0000000008000304                SysTick_Handler
- *fill*         0x0000000008000306        0x2 
+                0x0000000008000234        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000234                SysTick_Handler
+ *fill*         0x0000000008000236        0x2 
  .text.systick_config
-                0x0000000008000308       0x40 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x0000000008000308                systick_config
- .text.main     0x0000000008000348        0x8 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                0x0000000008000348                main
+                0x0000000008000238       0x40 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000238                systick_config
+ .text.main     0x0000000008000278        0x8 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000278                main
+ .text.nvic_vector_table_set
+                0x0000000008000280       0x18 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000280                nvic_vector_table_set
+ .text.SystemInit
+                0x0000000008000298       0xbc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000008000298                SystemInit
  .text.Reset_Handler
-                0x0000000008000350       0x44 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
-                0x0000000008000350                Reset_Handler
+                0x0000000008000354       0x44 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+                0x0000000008000354                Reset_Handler
  .text.Default_Handler
-                0x0000000008000394        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
-                0x0000000008000394                EXTI2_IRQHandler
-                0x0000000008000394                TIMER2_IRQHandler
-                0x0000000008000394                LVD_IRQHandler
-                0x0000000008000394                TIMER0_BRK_IRQHandler
-                0x0000000008000394                ADC0_1_IRQHandler
-                0x0000000008000394                TIMER0_UP_IRQHandler
-                0x0000000008000394                EXTI3_IRQHandler
-                0x0000000008000394                TIMER3_IRQHandler
-                0x0000000008000394                DMA0_Channel6_IRQHandler
-                0x0000000008000394                I2C0_EV_IRQHandler
-                0x0000000008000394                EXTI0_IRQHandler
-                0x0000000008000394                SPI1_IRQHandler
-                0x0000000008000394                DMA0_Channel0_IRQHandler
-                0x0000000008000394                TAMPER_IRQHandler
-                0x0000000008000394                DMA0_Channel3_IRQHandler
-                0x0000000008000394                I2C0_ER_IRQHandler
-                0x0000000008000394                RTC_IRQHandler
-                0x0000000008000394                DMA0_Channel2_IRQHandler
-                0x0000000008000394                USART0_IRQHandler
-                0x0000000008000394                TIMER1_IRQHandler
-                0x0000000008000394                TIMER0_TRG_CMT_IRQHandler
-                0x0000000008000394                I2C1_EV_IRQHandler
-                0x0000000008000394                EXTI10_15_IRQHandler
-                0x0000000008000394                Default_Handler
-                0x0000000008000394                WWDGT_IRQHandler
-                0x0000000008000394                EXMC_IRQHandler
-                0x0000000008000394                USBD_WKUP_IRQHandler
-                0x0000000008000394                EXTI4_IRQHandler
-                0x0000000008000394                USBD_HP_CAN0_TX_IRQHandler
-                0x0000000008000394                CAN0_RX1_IRQHandler
-                0x0000000008000394                DMA0_Channel5_IRQHandler
-                0x0000000008000394                EXTI5_9_IRQHandler
-                0x0000000008000394                RCU_IRQHandler
-                0x0000000008000394                DMA0_Channel1_IRQHandler
-                0x0000000008000394                TIMER0_Channel_IRQHandler
-                0x0000000008000394                EXTI1_IRQHandler
-                0x0000000008000394                SPI0_IRQHandler
-                0x0000000008000394                RTCAlarm_IRQHandler
-                0x0000000008000394                USART2_IRQHandler
-                0x0000000008000394                CAN0_EWMC_IRQHandler
-                0x0000000008000394                USBD_LP_CAN0_RX0_IRQHandler
-                0x0000000008000394                USART1_IRQHandler
-                0x0000000008000394                I2C1_ER_IRQHandler
-                0x0000000008000394                FMC_IRQHandler
-                0x0000000008000394                DMA0_Channel4_IRQHandler
+                0x0000000008000398        0x2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+                0x0000000008000398                EXTI2_IRQHandler
+                0x0000000008000398                TIMER2_IRQHandler
+                0x0000000008000398                LVD_IRQHandler
+                0x0000000008000398                TIMER0_BRK_IRQHandler
+                0x0000000008000398                ADC0_1_IRQHandler
+                0x0000000008000398                TIMER0_UP_IRQHandler
+                0x0000000008000398                EXTI3_IRQHandler
+                0x0000000008000398                TIMER3_IRQHandler
+                0x0000000008000398                DMA0_Channel6_IRQHandler
+                0x0000000008000398                I2C0_EV_IRQHandler
+                0x0000000008000398                EXTI0_IRQHandler
+                0x0000000008000398                SPI1_IRQHandler
+                0x0000000008000398                DMA0_Channel0_IRQHandler
+                0x0000000008000398                TAMPER_IRQHandler
+                0x0000000008000398                DMA0_Channel3_IRQHandler
+                0x0000000008000398                I2C0_ER_IRQHandler
+                0x0000000008000398                RTC_IRQHandler
+                0x0000000008000398                DMA0_Channel2_IRQHandler
+                0x0000000008000398                USART0_IRQHandler
+                0x0000000008000398                TIMER1_IRQHandler
+                0x0000000008000398                TIMER0_TRG_CMT_IRQHandler
+                0x0000000008000398                I2C1_EV_IRQHandler
+                0x0000000008000398                EXTI10_15_IRQHandler
+                0x0000000008000398                Default_Handler
+                0x0000000008000398                WWDGT_IRQHandler
+                0x0000000008000398                EXMC_IRQHandler
+                0x0000000008000398                USBD_WKUP_IRQHandler
+                0x0000000008000398                EXTI4_IRQHandler
+                0x0000000008000398                USBD_HP_CAN0_TX_IRQHandler
+                0x0000000008000398                CAN0_RX1_IRQHandler
+                0x0000000008000398                DMA0_Channel5_IRQHandler
+                0x0000000008000398                EXTI5_9_IRQHandler
+                0x0000000008000398                RCU_IRQHandler
+                0x0000000008000398                DMA0_Channel1_IRQHandler
+                0x0000000008000398                TIMER0_Channel_IRQHandler
+                0x0000000008000398                EXTI1_IRQHandler
+                0x0000000008000398                SPI0_IRQHandler
+                0x0000000008000398                RTCAlarm_IRQHandler
+                0x0000000008000398                USART2_IRQHandler
+                0x0000000008000398                CAN0_EWMC_IRQHandler
+                0x0000000008000398                USBD_LP_CAN0_RX0_IRQHandler
+                0x0000000008000398                USART1_IRQHandler
+                0x0000000008000398                I2C1_ER_IRQHandler
+                0x0000000008000398                FMC_IRQHandler
+                0x0000000008000398                DMA0_Channel4_IRQHandler
  *(.glue_7)
- .glue_7        0x0000000008000396        0x0 linker stubs
+ .glue_7        0x000000000800039a        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008000396        0x0 linker stubs
+ .glue_7t       0x000000000800039a        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0000000008000396        0x2 
- .eh_frame      0x0000000008000398        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *fill*         0x000000000800039a        0x2 
+ .eh_frame      0x000000000800039c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x0000000008000398        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008000398                _init
- .init          0x000000000800039c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x000000000800039c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x000000000800039c                _init
+ .init          0x00000000080003a0        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x00000000080003a4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x00000000080003a4                _fini
- .fini          0x00000000080003a8        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x00000000080003b0                . = ALIGN (0x4)
-                0x00000000080003b0                _etext = .
+ .fini          0x00000000080003a8        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080003a8                _fini
+ .fini          0x00000000080003ac        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000000080003b4                . = ALIGN (0x4)
+                0x00000000080003b4                _etext = .
 
-.vfp11_veneer   0x00000000080003b0        0x0
- .vfp11_veneer  0x00000000080003b0        0x0 linker stubs
+.vfp11_veneer   0x00000000080003b4        0x0
+ .vfp11_veneer  0x00000000080003b4        0x0 linker stubs
 
-.v4_bx          0x00000000080003b0        0x0
- .v4_bx         0x00000000080003b0        0x0 linker stubs
+.v4_bx          0x00000000080003b4        0x0
+ .v4_bx         0x00000000080003b4        0x0 linker stubs
 
-.iplt           0x00000000080003b0        0x0
- .iplt          0x00000000080003b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x00000000080003b4        0x0
+ .iplt          0x00000000080003b4        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rel.dyn        0x00000000080003b0        0x0
- .rel.iplt      0x00000000080003b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x00000000080003b4        0x0
+ .rel.iplt      0x00000000080003b4        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x00000000080003b0        0x0
-                0x00000000080003b0                . = ALIGN (0x4)
+.rodata         0x00000000080003b4        0x0
+                0x00000000080003b4                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b4                . = ALIGN (0x4)
 
-.ARM.extab      0x00000000080003b0        0x0
-                0x00000000080003b0                . = ALIGN (0x4)
+.ARM.extab      0x00000000080003b4        0x0
+                0x00000000080003b4                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b4                . = ALIGN (0x4)
 
-.ARM            0x00000000080003b0        0x0
-                0x00000000080003b0                . = ALIGN (0x4)
-                0x00000000080003b0                __exidx_start = .
+.ARM            0x00000000080003b4        0x0
+                0x00000000080003b4                . = ALIGN (0x4)
+                0x00000000080003b4                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080003b0                __exidx_end = .
-                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b4                __exidx_end = .
+                0x00000000080003b4                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080003b0        0x0
-                0x00000000080003b0                . = ALIGN (0x4)
-                0x00000000080003b0                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00000000080003b4        0x0
+                0x00000000080003b4                . = ALIGN (0x4)
+                0x00000000080003b4                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080003b0                PROVIDE (__preinit_array_end = .)
-                0x00000000080003b0                . = ALIGN (0x4)
+                0x00000000080003b4                PROVIDE (__preinit_array_end = .)
+                0x00000000080003b4                . = ALIGN (0x4)
 
-.init_array     0x00000000080003b0        0x4
-                0x00000000080003b0                . = ALIGN (0x4)
-                0x00000000080003b0                PROVIDE (__init_array_start = .)
+.init_array     0x00000000080003b4        0x4
+                0x00000000080003b4                . = ALIGN (0x4)
+                0x00000000080003b4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080003b0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x00000000080003b4                PROVIDE (__init_array_end = .)
-                0x00000000080003b4                . = ALIGN (0x4)
+ .init_array    0x00000000080003b4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x00000000080003b8                PROVIDE (__init_array_end = .)
+                0x00000000080003b8                . = ALIGN (0x4)
 
-.fini_array     0x00000000080003b4        0x4
-                0x00000000080003b4                . = ALIGN (0x4)
-                0x00000000080003b4                PROVIDE (__fini_array_start = .)
+.fini_array     0x00000000080003b8        0x4
+                0x00000000080003b8                . = ALIGN (0x4)
+                0x00000000080003b8                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080003b4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x00000000080003b8                PROVIDE (__fini_array_end = .)
-                0x00000000080003b8                . = ALIGN (0x4)
-                0x00000000080003b8                _sidata = LOADADDR (.data)
+ .fini_array    0x00000000080003b8        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x00000000080003bc                PROVIDE (__fini_array_end = .)
+                0x00000000080003bc                . = ALIGN (0x4)
+                0x00000000080003bc                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x4 load address 0x00000000080003b8
+.data           0x0000000020000000        0x4 load address 0x00000000080003bc
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -473,17 +487,17 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
                 0x0000000020000004                _edata = .
 
 .tm_clone_table
-                0x0000000020000004        0x0 load address 0x00000000080003bc
+                0x0000000020000004        0x0 load address 0x00000000080003c0
  .tm_clone_table
                 0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000004        0x0 load address 0x00000000080003bc
+.igot.plt       0x0000000020000004        0x0 load address 0x00000000080003c0
  .igot.plt      0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x0000000020000004                . = ALIGN (0x4)
 
-.bss            0x0000000020000004       0x1c load address 0x00000000080003bc
+.bss            0x0000000020000004       0x1c load address 0x00000000080003c0
                 0x0000000020000004                _sbss = .
                 0x0000000020000004                __bss_start__ = _sbss
  *(.bss)
@@ -495,7 +509,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
                 0x0000000020000020                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000020      0x600 load address 0x00000000080003bc
+                0x0000000020000020      0x600 load address 0x00000000080003c0
                 0x0000000020000020                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
@@ -537,99 +551,98 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/libgcc.a
  .comment       0x0000000000000033       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000      0x833
- .debug_info    0x0000000000000000      0x811 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_info    0x0000000000000811       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+.debug_info     0x0000000000000000      0x9e4
+ .debug_info    0x0000000000000000      0x9c2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_info    0x00000000000009c2       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
 
-.debug_abbrev   0x0000000000000000      0x2c9
- .debug_abbrev  0x0000000000000000      0x2b7 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_abbrev  0x00000000000002b7       0x12 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+.debug_abbrev   0x0000000000000000      0x305
+ .debug_abbrev  0x0000000000000000      0x2f3 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_abbrev  0x00000000000002f3       0x12 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
 
-.debug_loc      0x0000000000000000       0xdc
- .debug_loc     0x0000000000000000       0xdc CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+.debug_loc      0x0000000000000000      0x375
+ .debug_loc     0x0000000000000000      0x375 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
 
-.debug_aranges  0x0000000000000000       0xc0
+.debug_aranges  0x0000000000000000       0xf8
  .debug_aranges
-                0x0000000000000000       0x98 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                0x0000000000000000       0xd0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
  .debug_aranges
-                0x0000000000000098       0x28 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+                0x00000000000000d0       0x28 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
 
-.debug_ranges   0x0000000000000000       0xa8
- .debug_ranges  0x0000000000000000       0x88 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_ranges  0x0000000000000088       0x20 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+.debug_ranges   0x0000000000000000       0xe0
+ .debug_ranges  0x0000000000000000       0xc0 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_ranges  0x00000000000000c0       0x20 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
 
-.debug_macro    0x0000000000000000     0x876c
- .debug_macro   0x0000000000000000      0x2c4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000002c4      0xa60 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000000d24       0x64 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000000d88       0x3a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000000dc2      0x34e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000001110       0x2d CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000113d      0xa8b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000001bc8      0x115 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000001cdd      0x37c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000002059       0xca CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000002123      0x1ac CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000022cf      0x853 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000002b22      0x33a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000002e5c      0x79e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000035fa       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000362e      0x28f CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000038bd       0xbe CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000397b      0x463 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000003dde      0x295 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000004073       0xac CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000411f       0x70 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000418f       0xf4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000004283      0x96f CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000004bf2      0x30b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000004efd      0x2c6 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000051c3      0x38b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000554e      0x605 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000005b53      0x54a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000609d      0x8f1 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000698e       0x18 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000069a6       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000069c8       0x46 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006a0e       0x5c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006a6a       0x3c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006aa6       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006ada       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006af0      0x10e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006bfe       0x86 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006c84       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006c9a       0x43 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006cdd       0x57 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006d34       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006d68       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006d78       0x52 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006dca       0x71 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006e3b       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006e51      0x12a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000006f7b      0x356 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000072d1       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000072f3     0x1108 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000083fb       0x70 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000846b       0x1c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000008487       0x35 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000084bc       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000084cc       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000084dc       0x6a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000008546       0xb2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x00000000000085f8       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x000000000000860e      0x114 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000008722       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_macro   0x0000000000008732       0x3a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+.debug_macro    0x0000000000000000     0x8761
+ .debug_macro   0x0000000000000000      0x2c9 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000002c9      0xa66 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000000d2f       0x5e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000000d8d       0x3a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000000dc7      0x34e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000001115       0x2d CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000001142      0xa8b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000001bcd      0x115 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000001ce2      0x37c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000205e       0xca CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000002128      0x1ac CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000022d4      0x853 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000002b27      0x33a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000002e61      0x79e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000035ff       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000003633      0x28f CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000038c2       0xbe CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000003980      0x463 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000003de3      0x295 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004078       0xac CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004124       0x70 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004194       0xf4 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004288      0x96f CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004bf7      0x30b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000004f02      0x2c6 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000051c8      0x38b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000005553      0x605 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000005b58      0x54a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000060a2      0x8f1 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006993       0x18 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000069ab       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000069cd       0x46 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006a13       0x5c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006a6f       0x3c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006aab       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006adf       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006af5      0x10e CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006c03       0x86 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006c89       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006c9f       0x43 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006ce2       0x57 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006d39       0x34 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006d6d       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006d7d       0x52 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006dcf       0x71 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006e40       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006e56      0x12a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000006f80      0x356 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000072d6       0x22 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000072f8     0x1108 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008400       0x70 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008470       0x1c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000848c       0x35 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000084c1       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000084d1       0x10 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000084e1       0x6a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x000000000000854b       0xb2 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x00000000000085fd       0x16 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008613      0x114 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_macro   0x0000000000008727       0x3a CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
 
-.debug_line     0x0000000000000000      0xb11
- .debug_line    0x0000000000000000      0xa5b CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
- .debug_line    0x0000000000000a5b       0xb6 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+.debug_line     0x0000000000000000      0xce6
+ .debug_line    0x0000000000000000      0xc30 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+ .debug_line    0x0000000000000c30       0xb6 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
 
-.debug_str      0x0000000000000000    0x29da1
- .debug_str     0x0000000000000000    0x29d39 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
-                                      0x29f89 (size before relaxing)
- .debug_str     0x0000000000029d39       0x68 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
+.debug_str      0x0000000000000000    0x29ead
+ .debug_str     0x0000000000000000    0x29e45 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+                                      0x2a09e (size before relaxing)
+ .debug_str     0x0000000000029e45       0x68 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Libraries/CMSIS/DeviceSupport/startup_gd32f10x.s.obj
                                          0x99 (size before relaxing)
 
-.debug_frame    0x0000000000000000      0x12c
- .debug_frame   0x0000000000000000      0x12c CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj
+.debug_frame    0x0000000000000000      0x1a8
+ .debug_frame   0x0000000000000000      0x1a8 CMakeFiles/GD32F103C8T6_STRUCTURE_EXAMPLE.dir/Unity/unity_0_c.c.obj

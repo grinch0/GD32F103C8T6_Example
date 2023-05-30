@@ -1,0 +1,28 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Debug with ST-Link",
+        "request": "launch",
+        "type": "cortex-debug",
+        "cwd": "${workspaceFolder}",
+        "servertype": "openocd",
+        "preLaunchTask": "Build Project",
+        "device": "${workspaceFolder}/Libraries/CMSIS/DeviceSupport/startup_stm32f103xb.s",
+        "interface": "swd",
+        "cpu": "cortex-m3",
+        "executable": "${workspaceFolder}/build/STM32F103C8T6_STRUCTURE_EXMPLE.elf",
+        "svdFile": "${workspaceFolder}/Utilities/STM32F103xx.svd",        
+        "runToEntryPoint": "main",
+        "showDevDebugOutput": "none",
+        "armToolchainPath": "/usr/bin/gdb-multiarch",
+        "gdbPath": "/usr/bin/gdb-multiarch",
+        "configFiles": [
+            "${workspaceFolder}/openocd.cfg"
+        ],
+        "toolchainPrefix": "arm-none-eabi"
+        }]
+}

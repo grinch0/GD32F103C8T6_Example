@@ -8,3 +8,5 @@
 
 #include "/home/kosten/Projects/GD32F103C8T6_Example/Src/systick.c"
 
+#include "/home/kosten/Projects/GD32F103C8T6_Example/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.c"
+
